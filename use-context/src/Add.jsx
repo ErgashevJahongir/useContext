@@ -25,11 +25,13 @@ export default function Add() {
         <div>
             <input
                 onChange={(e) => setAddName(e.target.value.trim())}
+                value={addName}
                 type="text"
                 placeholder="Ismingizni yozing"
             />
             <input
                 onChange={(e) => setAddPul(e.target.value.trim())}
+                value={addPul}
                 type="text"
                 placeholder="Maoshingizni yozing"
             />
